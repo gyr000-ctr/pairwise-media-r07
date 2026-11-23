@@ -3,6 +3,7 @@ import math
 import pytest
 
 import bezieroffset
+from bezieroffset import Offset
 
 def _raises(fn, exc=ValueError):
     try:
