@@ -3,6 +3,7 @@ import math
 import pytest
 
 import gridfov
+from gridfov import GridFov
 
 def _raises(fn, exc=ValueError):
     try:
